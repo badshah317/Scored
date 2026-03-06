@@ -1,0 +1,137 @@
+/* Practice1 */
+
+/* body{
+    background-image:
+      linear-gradient(to right,
+       rgba(255,0,0,0.8),rgba(0,0,255,0.8)),
+     url("practice image/lap1.webp");
+    background-size: cover; 
+    background-position: center;
+    color:white;
+    
+
+}
+#mydiv1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#my1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+
+}
+ 
+#mydiv2{
+    margin-top: 60px;
+    text-align: center;
+}
+#b1{
+    border-radius: 20px;
+    padding: 8px 4px 8px 4px;
+    width: 120px;
+    background: #ff5e62;
+    color:white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+#b2{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 4px 8px 4px;
+    width: 120px;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+#but-error{
+    color: blue;
+    font-weight: bold;
+} */
+
+
+/* Practice2 */
+
+
+body{
+    margin: 0;
+    background:linear-gradient(to right,#F7F0F0,#ECE7D1)
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #36064D;
+    width: 400px;
+    height: 200px;
+    margin: 30px auto 30px auto;
+    border: 5px solid white;
+    color: white;
+    border-radius: 15px;
+}
+@font-face {
+        font-family:Digital-7;
+        src: url("digital.ttf");
+    }
+    h1{
+        margin-bottom:2px;
+    }
+.con-c1{
+    background: black;
+    width: 70px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    margin-top: 0;
+    color: red;
+    font-family: Digital-7;
+    font-size: 33px;
+    border-radius: 8px;
+}
+.con-2{
+    background: black;
+    width: 70px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: red;
+    font-family: Digital-7;
+    font-size: 33px;
+    border-radius: 8px;
+    
+}
+.rt{
+    margin-top: 10px;
+}
+.b1{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.b2{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.b3{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+}
